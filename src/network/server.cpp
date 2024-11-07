@@ -1,7 +1,7 @@
 #include "server.hpp"
 #include <iostream>
 #include <cstring>
-#include <arpa/inet.h>  // Added for macOS
+#include <arpa/inet.h>
 
 DatabaseServer::DatabaseServer(int port) : port(port), running(false) {}
 

@@ -1,1 +1,88 @@
 
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+*.dir/
+
+# Autoconf generated files
+configure
+config.log
+config.status
+config.h
+config.h.in
+
+# Generated documentation
+docs/doxygen/
+*.dox
+
+# Backup and temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# IDE and editor-specific files
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# CLion and JetBrains IDEs
+.idea/
+cmake-build-*/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.xcodeproj/
+
+# Visual Studio
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.opendb
+*.opensdf
+*.user
+*.sln
+*.suo
+*.cache/
+*.ilk
+
+# MacOS-specific files
+.DS_Store
